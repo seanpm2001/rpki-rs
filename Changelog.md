@@ -9,7 +9,12 @@ New
 
 Bug fixes
 
+* Fixed encoding of empty revocation lists in CRLs from an empty sequence
+  to not be present. ([#295])
+
 Other changes
+
+[#295]: https://github.com/NLnetLabs/rpki-rs/pull/295
 
 
 ## 0.18.3
